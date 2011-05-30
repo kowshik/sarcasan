@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="ACTIVITY_BACKGROUND">#f3f3f3</color>
+<color name="LINK_BLUE">#0000FF</color>
+<color name="RIBBON_BLUE">#d6d3d6</color>
+<color name="FOCUSED_COLOR">#b40064ff</color>
+</resources>

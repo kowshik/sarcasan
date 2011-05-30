@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Humor India</string>
+    <string name="string_like">
+		<u>Like</u>
+	</string>
+</resources>

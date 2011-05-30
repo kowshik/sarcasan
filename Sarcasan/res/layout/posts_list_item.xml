@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:layout_marginLeft="10dip" android:layout_marginRight="5dip"
+	android:background="@color/ACTIVITY_BACKGROUND">
+	<ImageView android:id="@+id/post_display_pic"
+		android:layout_width="52dip" android:layout_height="52dip"
+		android:scaleType="fitXY" android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"></ImageView>
+	<TextView android:id="@+id/post_description"
+		android:layout_toRightOf="@id/post_display_pic" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_margin="5dip"
+		android:textColor="@android:color/black"></TextView>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="30dip" android:layout_below="@id/post_description"
+		android:layout_alignParentRight="true">
+		<com.smargav.humorindia.adapter.CustomLinkButton android:layout_width="wrap_content" android:id="@+id/likeButton"
+			android:layout_height="wrap_content" android:layout_below="@id/post_description"
+			android:text="@string/string_like" android:layout_centerVertical="true"
+			android:textColor="@color/LINK_BLUE" android:background="@null"
+			android:layout_marginLeft="10dip"></com.smargav.humorindia.adapter.CustomLinkButton>
+		<TextView android:layout_width="wrap_content" android:id="@+id/likesText"
+			android:layout_height="wrap_content" android:text="3 likes this"
+			android:layout_marginRight="5dip" android:layout_centerVertical="true"
+			android:textColor="@android:color/black"></TextView>
+
+	</LinearLayout>
+</RelativeLayout>
